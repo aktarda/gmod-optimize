@@ -1,3 +1,4 @@
+--
 if (not system.IsLinux()) then return end
 
 local colorClearSequence = '\27[0m'
