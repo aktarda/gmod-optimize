@@ -1,3 +1,4 @@
+--
 setmetatable(net, {
 	__call = function(self, name, func)
 		return self.Receive(name, func)
