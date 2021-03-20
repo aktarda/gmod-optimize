@@ -1,3 +1,4 @@
+--
 function string.Random(chars)
 	local str = ''
 	for i = 1, (chars or 10) do
